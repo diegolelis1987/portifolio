@@ -1,0 +1,212 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+@font-face {
+    font-family:'FonteDiego' ;
+    src: url(../_fonts/bubblegum-sans-regular.otf);
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(../imagens/1670800802360.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+div#interface{
+    width: 1000px;
+    background-color: rgba(250, 245, 245, 0.5);
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    padding: 10px;
+    border-radius: .5rem;
+}
+
+/*FORMATAÇÃO DO CABEÇAHO*/
+header#cabecalho{
+    border-bottom: 1px solid #210af1;
+    height: 100px;
+}
+
+header#cabecalho h1{
+    font-family: 'FonteDiego';
+    font-size: 30pt;
+    color: #210af1;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15pt;
+    color: #01e8f894;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/*FORMATAÇÃO DO ÍCONE*/
+header#cabecalho img#icone{
+    position:absolute;
+    left: 1050px;
+    top: 40px;
+    max-width: 85px;
+    border-radius: 10px;
+}
+
+/*FORMATAÇÃO DO MENU*/
+a{
+    color: #f7f7fd;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 685px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: rgb(29, 228, 211);
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    border-radius: .3rem;
+}
+
+nav#menu li:hover{
+    background-color: #210af1;
+}
+
+nav#menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: rgb(6, 253, 253);
+}
+
+nav#menu h1{
+    display: none;
+}
+
+
+/*FORMATAÇAÕ DA PARTE PRINCIPAL - CORPO*/
+section#corpo{
+    display: block;
+    width: 400px;
+    float: left;
+    padding-right: 15px;
+    border-right: 1px solid #210af1;
+}
+
+/*FORMATAÇAÕ DA PARTE PRINCIPAL - ESQUERDA*/
+header#cabecalho-html h1{
+    font-family: 'FonteDiego', sans-serif;
+    color: #210af1;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+    font-size: 20pt;
+    margin-top: 0px;
+    padding: 5px 0px 5px 10px; /*top right botton left*/
+}
+
+article#html h2{
+    font-size: 12pt;
+    color: #01e8f894;
+    text-shadow: 1px 1px 1px #210af1;
+    background-color: rgba(250, 245, 245, 0.1);
+    box-shadow: 1px 1px 1px black;
+    padding: 5px 0px 5px 10px; /*top right botton left*/
+    margin: 10px 0px 10px 0px; /*top right botton left*/
+    border: 1px solid black;
+    border-radius: .2rem;
+}
+
+header#cabecalho-html h3#curriculo-lates{
+    display: block;
+    padding: 5px 0px 5px 10px; /*top right botton left*/
+    margin: -40px 0px 25px 0px; /*top right botton left*/
+    color: #01e8f894;
+    text-shadow: 1px 1px 1px #210af1;
+}
+
+.direita{
+    text-align: right;
+}
+
+header#cabecalho-html h2{
+    font-size: 13pt;
+    color: rgb(29, 228, 211);
+    margin: 0px;    
+}
+
+header#cabecalho-html h3{
+    font-size: 12px;
+    color: #210af1;
+}
+
+p{
+    text-align: justify; 
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*FORMATAÇÃO DA PARTE PRINCIPAL - DIREITA*/
+aside#lateral{
+    display: block;
+    width: 550px;
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: .2rem;
+}
+
+aside#lateral p#direita{
+        text-align: justify; 
+        text-indent: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+aside#lateral h1{
+    font-family: 'FonteDiego', sans-serif;
+    color: #210af1;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+    font-size: 20pt;
+    margin-top: 0px;
+}
+
+aside#lateral h2{
+    font-size: 12pt;
+    color: #01e8f894;
+    text-shadow: 1px 1px 1px #210af1;
+    background-color: rgba(250, 245, 245, 0.1);
+    box-shadow: 1px 1px 1px black;
+    padding: 5px 0px 5px 10px; /*top right botton left*/
+    margin: 10px 0px 10px 0px; /*top right botton left*/
+    border: 1px solid black;
+    border-radius: .2rem;
+}
+/*FORMATAÇÃO DO RODAPÉ*/
+footer#rodape{
+    color: #210af1;
+    clear: both;
+    border-top: 1px solid #210af1;
+}
+
+footer#rodape p{
+    text-align: center;
+}

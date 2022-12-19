@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--TÍTULO DA PAGINA-->
+    <title>&diams;Diego Andrade&spades;</title>
+    <link rel="icon" tipe="image/x-icon" href="imagens/DiegoAndrade.ico">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style (cópia).css">
+    <link rel="stylesheet" href="css/BoucingLoaderAnimation copy.css">
+    <link rel="stylesheet" href="css/contato.css">
+
+    <!--JavaScrip-->
+    <script laguage="javascript" src="javascript/funcoes.js"></script>    
+
+</head>
+<body>
+
+    <div id="interface">
+
+        <header id="cabecalho">
+
+            <!--CABEÇALHO-->
+            <hgroup>
+                <h1>Diego Andrade&#174;</h1>
+                <h2>A máquina descontrolada do HTML/CSS/JS</h2>
+            </hgroup>
+
+            <!--BOLINHAS QUICANDO-->
+            <div class="loading">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="shadow"></div>
+                <div class="shadow"></div>
+                <div class="shadow"></div>
+            </div>
+
+            <!--ÍCONE-->
+            <img id="icone" src="imagens/contato.png" alt="Diego Andrade">
+
+            <!--MENU SUSPENÇO-->
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul >
+                    <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/diegoDESENHO.jpeg')"><a href="index.html">Home<a></li>
+                    <li onmouseover="mudaFoto('imagens/eu.png')" onmouseout="mudaFoto('imagens/diegoDESENHO.jpeg')"><a href="sobre-mim.html">Sobre Mim</a></li>
+                    <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/diegoDESENHO.jpeg')"><a href="portifolio.html">Portifólio</a></li>
+                    <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/diegoDESENHO.jpeg')"><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <!--FORMULÁRIO DE CONTATO-->
+        <form action="mailto:diegolelis1987@gmail.com" method="post" id="fContato">
+
+            <fieldset id="usuario"><legend>Formulário de Contato</legend>
+                <p><label for="cNome"></label><input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"> </p>
+                <p><label for="cEmail"></label><input type="email" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="E-mail"></p> 
+                <p>
+                    <label for="cMsg"></label>
+                    <textarea name="tMsg" id="cMsg" cols="35" rows="5" placeholder="Digite aqui sua mensagem."></textarea>
+                </p>   
+                <br><br><br><br><br><br>
+                <button id="cEnviar">ENVIAR</button>
+                <button id="cCancelar">CANCELAR</button>
+
+                <!--BOTÕES DE ATALHO PARA WPP E LINKEDIN-->
+                <a href="HTTPS://WA.me/5527992222382" target="_blank">
+                    <img src="imagens/wpp.png" alt="Link para Whatsapp" id="wpp">
+                </a>
+
+                <a href="https://www.linkedin.com/in/diego-lelis-a0084b16b" target="_blank">
+                    <img src="imagens/linkedin.png" alt="Link para Linkedin" id="linkedin">
+                </a>
+
+                <a href="https://github.com/diegolelis1987" target="_blank">
+                    <img src="imagens/gth.png" alt="Link para GitHub" id="github">
+                </a>
+            </fieldset>
+            
+        </form>
+
+        <footer id="rodape">
+            <p>Copyright &copy; 2023 - by <b>Diego Andrade</b></p>
+        </footer>
+    </div>
+    
+</body>
+</html>

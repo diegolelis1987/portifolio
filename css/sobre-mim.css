@@ -1,0 +1,81 @@
+@charset "UTF-8";
+p#sobre-mim{
+    text-align: justify; 
+    text-indent: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px 5px 10px; /*top right botton left*/
+}
+
+ul#album-fotos{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid rgba(79, 135, 161, 0.3);
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px #210af1;
+    -webkit-transition: all .3s ease-in;
+}
+
+ul#album-fotos li span{
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #210af1;
+    background-color: rgba(79, 135, 161, 0.3);
+    border-radius: .2rem;
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#album-fotos li:hover{
+    -webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span{
+    opacity: 1;
+}
+
+ul#album-fotos li#foto01{
+    background: url(../imagens/familia.jpg) no-repeat;
+    background-position: 75% 50%;
+    background-size: 250px 300px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto01:hover{
+    background-position: 0px 0px;
+    background-size: 200px 250px;
+}
+
+ul#album-fotos li#foto02{
+    background: url(../imagens/eng_eletrecista.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto02:hover{
+    background-position: 0px 0px;
+    background-size: 200px 220px;
+}
+
+ul#album-fotos li#foto03{
+    background: url(../imagens/tec_em_informatica.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto03:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}

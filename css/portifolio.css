@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+ul#portifolio{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#portifolio li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid rgba(79, 135, 161, 0.3);
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px #210af1;
+    -webkit-transition: all .3s ease-in;
+}
+
+ul#portifolio li span{
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #210af1;
+    background-color: rgba(79, 135, 161, 0.3);
+    border-radius: .2rem;
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#portifolio li:hover{
+    -webkit-transform: scale(1.5);
+}
+
+ul#portifolio li:hover span{
+    opacity: 1;
+}
+
+ul#portifolio li#foto01{
+    background: url(../imagens/order-summary-component-main.png) no-repeat;
+    background-position: 75% 50%;
+    background-size: 250px 300px;
+    background-color: #ffffff;
+}
+
+ul#portifolio li#foto01:hover{
+    background-position: 0px 0px;
+    background-size: 200px 250px;
+}
+
+ul#portifolio li#foto02{
+    background: url(../imagens/product-preview-card-component-main.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#portifolio li#foto02:hover{
+    background-position: 0px 0px;
+    background-size: 200px 220px;
+}
+
+ul#portifolio li#foto03{
+    background: url(../imagens/curso_em_video_googleglass.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#portifolio li#foto03:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#portifolio li#foto04{
+    background: url(../imagens/em_construção.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#portifolio li#foto04:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#portifolio li#foto05{
+    background: url(../imagens/em_construção.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#portifolio li#foto05:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#portifolio li#foto06{
+    background: url(../imagens/em_construção.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#portifolio li#foto06:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/*LEGENDA DAS FOTOS*/

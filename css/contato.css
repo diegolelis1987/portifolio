@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/*FORMATAÇAÕ DA PARTE PRINCIPAL - CORPO*/
+form{
+    width: 500px;
+    margin: auto;
+}
+
+/*FORMATAÇAÕ DA ÁREA DE TEXTO*/
+input, textarea{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, .6);
+}
+
+input:hover, textarea:hover{
+    background-color: #ddd;
+}
+
+/*FORMATAÇAÕ DA LEGENDA*/
+legend{
+    color: #888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset{
+    border-color: #cecece;
+    margin: 20px;
+}
+
+/*FORMATAÇAÕ DOS BOTÕES - ENVIAR/CANCELAR*/
+button#cEnviar{
+    display: block;
+    width: 180px;
+    background-color: rgb(29, 228, 211);
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+    border-radius: .3rem;
+    padding: 10px;
+    margin: 2px;
+    position: absolute;
+    top: 390px;
+    left: 460px;
+}
+
+button#cEnviar:hover{
+    background-color: #210af1;
+}
+
+button#cCancelar{
+    display: block;
+    width: 180px;
+    background-color: rgb(160, 79, 79);
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+    border-radius: .3rem;
+    padding: 10px;
+    margin: 2px;
+    position: absolute;
+    top: 390px;
+    left: 650px;
+}
+
+button#cCancelar:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+/*FORMATAÇAÕ DOS BOTÕES DE WPP E LINKEDIN*/
+img#wpp{
+    display: block;
+    position: absolute;
+    left: 460px;
+    top: 460px;
+    width: 50px;
+}
+
+img#wpp:hover{
+    box-shadow: 1px 1px 4px black;
+    border-radius: .3rem;
+}
+
+img#linkedin{
+    display: block;
+    position: absolute;
+    align-items: center;
+    left: 520px;
+    top: 460px;
+    width: 50px;
+}
+
+img#linkedin:hover{
+    box-shadow: 1px 1px 4px black;
+    border-radius: .3rem;
+}
+
+img#github{
+    display: block;
+    position: absolute;
+    align-items: center;
+    left: 540px;
+    top: 450px;
+    width: 120px;
+}
+
+img#github:hover{
+    box-shadow: 1px 1px 4px black;
+    border-radius: .3rem;
+}

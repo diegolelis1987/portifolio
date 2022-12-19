@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--TÍTULO DA PAGINA-->
+    <title>&diams;Diego Andrade&spades;</title>
+    <link rel="icon" tipe="image/x-icon" href="imagens/DiegoAndrade.ico">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style (cópia).css">
+    <link rel="stylesheet" href="css/BoucingLoaderAnimation copy.css">
+    <link rel="stylesheet" href="css/portifolio.css">
+
+    <!--JavaScrip-->
+    <script laguage="javascript" src="javascript/funcoes.js"></script>    
+
+</head>
+<body>
+
+    <div id="interface">
+
+        <header id="cabecalho">
+
+            <!--CABEÇALHO-->
+            <hgroup>
+                <h1>Diego Andrade&#174;</h1>
+                <h2>A máquina descontrolada do HTML/CSS/JS</h2>
+            </hgroup>
+
+            <!--BOLINHAS QUICANDO-->
+            <div class="loading">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="shadow"></div>
+                <div class="shadow"></div>
+                <div class="shadow"></div>
+            </div>
+
+            <!--ÍCONE-->
+            <img id="icone" src="imagens/especificacoes.png" alt="Diego Andrade">
+
+            <!--MENU SUSPENÇO-->
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul >
+                    <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/diegoDESENHO.jpeg')"><a href="index.html">Home<a></li>
+                    <li onmouseover="mudaFoto('imagens/eu.png')" onmouseout="mudaFoto('imagens/diegoDESENHO.jpeg')"><a href="sobre-mim.html">Sobre Mim</a></li>
+                    <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/diegoDESENHO.jpeg')"><a href="portifolio.html">Portifólio</a></li>
+                    <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/diegoDESENHO.jpeg')"><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <!--IMAGENS COM LINKS PARA CONTEÚDOS DESENVOLVIDOS-->
+        <ul id="portifolio">
+            <a href="https://www.frontendmentor.io/solutions/frontendmentor-order-summary-tjhodWCb7Y" target="_blank"><li id="foto01"><span>Frontend Mentor - 01</span></li></a>
+            <a href="https://diegolelis1987.github.io/frontendmentor_product-preview-card-component-main/" target="_blank"><li id="foto02"><span>Frontend Mentor - 02</span></li></a>
+            <li id="foto03"><span>Curso em Video</span></li>
+            <li id="foto04"><span>Em Construção</span></li>
+            <li id="foto05"><span>Em Construção</span></li>
+            <li id="foto06"><span>Em Construção</span></li>
+        </ul>
+
+        <footer id="rodape">
+            <p>Copyright &copy; 2023 - by <b>Diego Andrade</b></p>
+        </footer>
+    </div>
+    
+</body>
+</html>
